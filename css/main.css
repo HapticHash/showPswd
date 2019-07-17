@@ -16,6 +16,31 @@ body {
   font-weight: 700;
 }
 
+.main {
+  width: 22em;
+  height: 4em;
+  margin: 0 auto;
+  background: #121726;
+  border-radius: 10px;
+}
+
+.main .group1 {
+  color: #fff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.main .text {
+  font-size: 1.5rem;
+  padding: 0.7em 0;
+}
+
+.main .fas {
+  font-size: 1.5em;
+  padding: 0.8em;
+}
+
 .inner {
   background: #fff;
   padding: 1em;
@@ -23,6 +48,8 @@ body {
   width: 20em;
   height: 2em;
   border-radius: 10px;
+  position: relative;
+  bottom: 4em;
   -webkit-clip-path: circle(10% at 90% 50%);
           clip-path: circle(10% at 90% 50%);
   -webkit-transition: all .5s ease-in-out;
@@ -47,8 +74,33 @@ body {
   margin-top: 0.3em;
 }
 
-.inner:hover span {
+.inner span .eye {
+  margin-right: -0.4em;
+  margin-top: -0.5em;
+  height: 2.5em;
+  width: 2.5em;
+  background: url("https://c7.uihere.com/icons/51/977/121/eyes-closed-b6461d9367d796b9a746d4d1e7151da9.svg") no-repeat;
+}
+
+.inner:hover span .eye {
   color: rgba(255, 255, 255, 0);
+  background: url("https://c7.uihere.com/icons/523/985/176/eyes-open-cf453f0338ead87274387950562d544f.svg") no-repeat;
+}
+
+.inner .group2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.inner .text {
+  font-size: 1.5rem;
+  padding: 0.1em 0.5em;
+}
+
+.inner .fas {
+  font-size: 1.5em;
+  padding: 0.2em;
 }
 
 .inner p {
