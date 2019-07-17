@@ -1,0 +1,13 @@
+body {
+  background-color: #dcf5ff;
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Nunito', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
