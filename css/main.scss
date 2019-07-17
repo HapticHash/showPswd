@@ -1,9 +1,52 @@
 body {
-    background-color: #dcf5ff;
+    background-color: #6fa5f6;
     margin: 0;
     height: 100vh;
     display: grid;
     justify-items: center;
     align-items: center;
     font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.inner {
+    background: #fff;
+    padding: 1em;
+    margin: 0 auto;
+    width: 20em;
+    height: 2em;
+    border-radius: 10px;
+    clip-path: circle(10% at 90% 50%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        clip-path: circle(75%);
+        background: #fff;
+    }
+
+    span {
+        color: #fff;
+        font-weight: bold;
+        float: right;
+        transition: color .5s;
+        position: relative;
+        margin-right: 0.4em;
+        margin-top: 0.3em;
+    }
+
+    &:hover span {
+        color: rgba($color: #fff, $alpha: 0);
+    }
+
+    p {
+        color: #222;
+        font-size: 1rem;
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
