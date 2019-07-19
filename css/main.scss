@@ -1,5 +1,5 @@
 body {
-    background-color: #6fa5f6;
+    background-color: #ffba08;
     margin: 0;
     height: 100vh;
     display: grid;
@@ -11,6 +11,7 @@ body {
 .title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
 .main {
@@ -26,7 +27,7 @@ body {
     }
     .text {
         font-size: 1.5rem;
-        padding: 0.7em 0;
+        padding: 0.65em 0;
     }
     .fas {
         font-size: 1.5em;
